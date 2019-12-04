@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.naranja{
+	-fx-background-color: orange;
+}
+.botones{
+	-fx-background-color: orange;
+	-fx-text-fill: white;
+	-fx-border-radius: 20.0;
+}
+.botones:hover{
+	-fx-background-color: red;
+}
+.imagenVista2{
+	-fx-background-image: url(../IMG/712485.png);
+	-fx-background-size: 100.0%;
+	-fx-background-repeat: no-repeat;
+}
+
+.centro{
+	-fx-alignment: center ;
+}
+
+.texto{
+	-fx-font-family: Quicksand;
+}
