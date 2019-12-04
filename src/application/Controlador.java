@@ -14,20 +14,32 @@ import javafx.scene.paint.Color;
 
 public class Controlador {
 
+	/**
+	 * Panel de fondo
+	 */
 	@FXML
 	private Pane pan;
 
+	/**
+	 * Cierra la aplicación
+	 */
 	@FXML
 	public void cerrar() {
 		System.exit(0);
 	}
 
+	/**
+	 * Cierra la ventana actual
+	 */
 	@FXML
 	public void cerrarVentana() {
 		Stage stage = (Stage) pan.getScene().getWindow();
 		stage.close();
 	}
 
+	/**
+	 * Crea la segunda ventana
+	 */
 	@FXML
 	public void crearVentana() {
 		Stage primaryStage = new Stage();
@@ -42,6 +54,9 @@ public class Controlador {
 		}
 	}
 
+	/**
+	 * Cambia el color de forma aleatoria
+	 */
 	@FXML
 	public void cambiarColor() {
 		int color = (int) (Math.random() * 10);
